@@ -1,0 +1,19 @@
+.card {
+    width: 100px;
+    height: 150px;
+    background: #54FFC6 ;
+    color: #B86AFC;
+    border: 1px solid;
+    border-radius: 8px;
+    font: 100px / 1.5 sans-serif;
+    text-align: center;
+}
+.container {
+    background: #F500FF;
+    height: 500px;
+    display: flex; 
+    flex-direction: row;
+
+justify-content: space-between ;
+align-items: stretch;
+

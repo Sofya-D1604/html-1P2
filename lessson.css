@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+p {
+    margin: 30px auto;
+    width: 700px;
+    text-align: justify;
+    font: 20px sans-serif;
+}
+/* 
+::before (перед тегом)
+::after (после тега)
+*/
+p::before { /* данный селектор будет создавать псевдоэлемент с контентом пред всеми абзацами <p> */
+content: "Начало: ";
+color: red;
+}
+p::after {
+    color: blue;
+    content: attr(title);
+}
+h1 {
+    width: 700px;
+    margin: 30px auto;
+    color: forestgreen;
+    font: 50px / 1 fantasy;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1::before,
+h1::after {
+ content: "";
+ width: 50px; 
+ height: 50px; 
+ background: orange;
+ display: block;
+}
+.daddy {
+    width: 700px;
+    margin: 0 auto 30px;
+    height: 500px;
+    background: #f8f;
+}
+.child {
+    width: 100px;
+    height: 100px;
+}
+.child1 {
+    background: red;
+}
+.child2 {
+    background: blue;
+}
+.child3 {
+    background: forestgreen;
+}

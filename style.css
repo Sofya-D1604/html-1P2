@@ -1,0 +1,44 @@
+.card {
+    width: 100px;
+    height: 150px;
+    background: #54FFC6 ;
+    color: #B86AFC;
+    border: 1px solid;
+    border-radius: 8px;
+    font: 100px / 1.5 sans-serif;
+    text-align: center;
+}
+.container {
+    background: #F500FF;
+    height: 500px;
+    display: flex; 
+    flex-direction: row;
+    /*
+    flex-direction
+     Направление основной оси
+     row - с лева на право
+     row-reverse - с права на лево
+     column - с верху вниз
+     colun-reverse - снизу вверх
+      */
+      justify-content: flex-start;
+      /*
+      justify-content
+      Расположение элементов вдоль основной оси
+      flex-start (с начала строки)
+      flex-end (с конца строки)
+      center
+      space-between (первый элемент находится в начале оси, посдний элемент распологается в конце оси, а между всеми элементами появляется равномерный отступ)
+      space-around - (равномрный отступ не между тегами, а вокруг каждого тега)
+      */
+      align-items: stretch;
+      /*
+      align-items
+      Расположение элементов вдоль поперечной оси (перпендикулярной)
+      stretch - растянуть по размеру родителя (если у флкс-элемента нет высоты)
+      flex-start - с начала оси
+      flex-end - с конца оси
+      center 
+      baselie - выравнивает элементы по нижнему краю контента
+      */
+}

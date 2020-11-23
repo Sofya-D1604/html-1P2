@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Закажите суши!</h1>
+    <!-- атибут action - путь к файлу для обработки формы на сервере -->
+    <form action="" method="GET" >
+        Введите ваше имя: <input type="text" name="usr-tel"><br>
+        Введите город доставки: <input type="text" name="usr-tel"> <br>
+        ВВедите адрес электонной почты: <input type="text" name="usr-tel"> <br>
+        Введите ваш телефон: <input type="text" name="usr-tel"> <br>
+        <input type="submit" value="Заказат суши">
+
+        <!--
+            input types: 
+            text - поле ввода текста
+            tel - поле ввода телефона 
+            email - поле ввода электонной почты
+            passward - поле для ввода пароля
+
+            nuber
+            date
+            week
+            color
+            range
+
+            Кнопки
+            button
+            submin - отавить данные формы
+            reset - сбосить все заолненные данные 
+            image - submin в виде картинки 
+        -->
+<fieldset>
+        <legend>Способы оплаты</legend>
+        <label>
+        <input type="radio" name="pay" value="наличными"> Наличными <br>
+        <input type="radio" name="pay" value="ката"> Катой <br>
+        </label>
+       
+        <legend>Выбеите бонус</legend>
+        <label>
+        <input type="radio" name="bonus" value="филаделфия"> Филадельфия <br>
+        <input type="radio" name="bonus" value="дакон маки"> Дакон Маки <br>
+        <input type="radio" name="bonus" value="каа маки" checked> Капа Маки <br>
+        </label>
+
+        <legend>Выбеити блюдо</legend>
+        <label>
+        <input type="checkbox" name="dish_1" value="stek lap">
+        Стеклянная лапша<br>
+        <input type="checkbox" name="dish_2" value="Tom yam">
+        Том Ям<br>
+        <input type="checkbox" name="dish_3" value="Kalifornia">
+         Калифония<br>
+        <input type="checkbox" name="dish_4" value="Miso soop">
+          Мисо суп<br>
+        </label>
+    </fieldset>
+    </form>
+</body>
+</html>

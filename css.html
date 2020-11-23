@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOCTYPE</title>
+    <style>
+        /*
+            * - универсальный селектор (применяет стили для всех тегов на странице)
+            p - селектор по тегу (в данном случаев, применяется стили для всех тегов <p></p>)
+            # - селектор по индефикатору (атрибут id)
+            . - селектор по классу (атрибут class)
+
+        */
+        *{
+            color: green 
+        }
+    p { 
+        text-align: justfy;
+        color: pink;
+    }
+    h1 {
+        color: violet; 
+    }
+     #special {
+         font-size: 30px; /* размер шрифта */ 
+         text-indent: 30px; /* красная строка */
+     }
+     .txt_blue {
+         color: blue 
+              }
+     .bg_dark {
+         background-color: rgb(2, 2, 2); /*# 222222 => rgb(34, 34, 34/)*/
+         color: white;
+     }
+    </style>
+</head>
+<body>
+    <!-- h1>lorem3^p*3>lorem70 -->
+    <!--
+        h1>lorem3^p>lorem70^h3>lorem10^p*2>lorem70
+    -->
+    
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel nobis accusamus, numquam voluptates explicabo facilis ullam fugiat delectus iusto cum facere eum. Tenetur, enim assumenda. Assumenda, excepturi, commodi consectetur sed minima suscipit nobis consequatur quos exercitationem natus ipsa quo quam enim. Eum, impedit! Earum sapiente officiis explicabo repellat iste id vero voluptatem quia suscipit necessitatibus. Similique iste in debitis? Velit vero dolorum quo similique consequatur quasi dolore eum natus deserunt?</p>
+        <h3 class="bg_dark txt_blue">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, recusandae.</h3>
+        <p id="special">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti accusantium perspiciatis dolorem amet possimus vitae vero sint doloribus, hic iure magnam cumque quidem ea ducimus inventore, mollitia dolore tempore dolorum ut id! Facilis eum hic enim architecto, minus non delectus cupiditate voluptate, voluptatem illo, perspiciatis magnam ut saepe culpa quia iure laboriosam rem nisi a obcaecati! Error perferendis, alias ratione, dolore quos illo saepe eius nemo pariatur iure, veritatis dolorum!</p>
+        <p>Quo sint omnis nulla quae optio eos, reiciendis dicta, magnam nobis molestiae tenetur illo cumque illum error exercitationem voluptates autem? Nulla sed cum nam odit aliquid recusandae eius laboriosam blanditiis. Dolorum obcaecati expedita, iusto tenetur eveniet accusamus laboriosam, esse amet aperiam odit ullam, quo ipsa aut velit pariatur exercitationem facere suscipit voluptatibus ea deleniti delectus vel! Cumque sint hic, cum, asperiores minus nam ipsum, nihil inventore a accusamus voluptas assumenda.</p>
+        <p class="bg_dark">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus aut error placeat vero reprehenderit porro autem, nostrum tempora vel facilis aperiam quo, earum dolores repellendus quis cupiditate beatae debitis! Quasi fugiat, aspernatur <span class="txt_blue"> so that he can swim but no so mush I think realy so and </span> suscipit vero ipsum eveniet consectetur voluptatum, velit architecto eius voluptatibus excepturi? Id, fugiat culpa numquam eaque laboriosam, dicta necessitatibus possimus in, labore consectetur nostrum consequuntur fugit excepturi quo inventore. Natus, perspiciatis explicabo perferendis expedita repudiandae unde commodi ad!
+    </p>
+</body>
+</html>
